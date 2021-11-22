@@ -9,6 +9,7 @@ This tutorial was set up for working with a bucket that requires credentials to 
 - stored your AWS credentials file in `~/.aws/credentials`
 - a bucket created that you can read and write to, with versioning enabled
 
+For help setting up your account and credentials, please see [these instructions](https://github.com/amsnyder/s3_demo/blob/main/usgs_access.md).
 
 ### A quick note:
 
