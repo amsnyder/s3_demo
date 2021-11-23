@@ -20,7 +20,7 @@
 
     c. Click the orange **Create bucket** button.
 
-    d. Fill in the required information and create the bucket. Enable versioning if you would like to track versions of your data files. You **must** have a `wma:project_id` tag set that points to a billable project in [this list](https://code.chs.usgs.gov/ctek/assets/aws/mappings/-/blob/master/projects.yml).
+    d. Fill in the required information and create the bucket. Enable versioning if you would like to track versions of your data files. You **must** have a tag added with the *key* set to `wma:project_id` and the *value* set to a billable project in [this list](https://code.chs.usgs.gov/ctek/assets/aws/mappings/-/blob/master/projects.yml).
 
     e. After you have created your bucket, you can add any sub-directories that you want to use with the web GUI as well. Note: You have read/write access to all of the buckets in S3 by default, so be careful not to tamper with other users' buckets.
 
