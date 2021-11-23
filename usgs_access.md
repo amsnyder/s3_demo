@@ -32,6 +32,7 @@
     
     ![config](https://user-images.githubusercontent.com/30877272/142939584-7ca257fd-0468-49c3-a0f3-e95643b418b0.png)
 
-    c. Create a new temporary access token by typing `saml2aws login`. Choose the option to work in the dev environment with the developer access. This will store a temporary set of credentials in your `~\.aws\credentials` file. Note that you will have to regenerate this token every hour by doing a saml2aws login, unless you change the aws_session_duration in your ` ~\.saml2aws` file.
+    ~~c. Create a new temporary access token by typing `saml2aws login`. Choose the option to work in the dev environment with the developer access.~~ The [attached notebook](https://github.com/amsnyder/s3_demo/blob/main/s3_demo.ipynb) will execute the shell command to generate credentials automatically using `saml2aws login`.  This will store a temporary set of credentials in your `~\.aws\credentials` file. Note that you will have to regenerate this token every hour by doing a saml2aws login, unless you change the aws_session_duration in your ` ~\.saml2aws` file.
 
-5. You are ready to do the tutorial in the [ipynb](https://github.com/amsnyder/s3_demo/blob/main/s3_demo.ipynb)!
+
+5. You are ready to do the tutorial!
