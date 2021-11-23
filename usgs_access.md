@@ -14,7 +14,7 @@
 
 3. Create an S3 bucket. You can create a bucket using the [AWS CLI](https://docs.aws.amazon.com/cli/latest/reference/s3api/create-bucket.html), or follow these instructions to use the web GUI:
 
-    a. Log in to the AWS web GUI [here](https://signin.aws.amazon.com/saml). You will want to select the option to log in to the dev environment with a developer role.
+    a. Log in to the AWS web GUI [here](https://awsconsole.usgs.gov/). You will want to select the option to log in to the dev environment with a developer role.
 
     b. Find the S3 Storage Service in the list of AWS services and click on it.
 
