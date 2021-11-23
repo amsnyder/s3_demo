@@ -8,7 +8,7 @@
 
     b. **Chocolatey** (only needed if you are on Windows): I followed [these instructions](https://docs.chocolatey.org/en-us/choco/setup#non-administrative-install) for non-admin install because I don’t have a pr account and they worked for me, but feel free to install however you like!
 
-    c. **saml2aws**: you can install this using chocolatey if you are on Windows. Installation instructions can be found in the [‘Install’ section of the README](https://github.com/Versent/saml2aws#install).
+    c. **saml2aws**: you can install this using chocolatey if you are on Windows. Installation instructions can be found in the [‘Install’ section of the README](https://github.com/Versent/saml2aws#install). For Linux HPCs, change the `~/.local/bin/saml2aws` to `/home/<username>/` and run all commands using `/home/<username>/saml2aws <command>`.
 
     d. **boto3**: python package that can be installed using conda or pip
 
