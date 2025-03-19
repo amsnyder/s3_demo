@@ -1,5 +1,3 @@
-This method has been deprecated.
-
 # Read/Write to AWS S3 with boto3
 This repository gives a simple demonstation of how to read and write data to an S3 bucket using boto3 in Python. It also covers how to get the version number of data you write to S3, as well as how to retreive a specific version number of a dataset.
 
